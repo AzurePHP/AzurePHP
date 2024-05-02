@@ -1,0 +1,22 @@
+{
+  "name": "azurephp/azurephp",
+  "description": "Basic framework for PHP projects",
+  "authors": [
+    {
+      "name": "Ruslan Nurgaleev",
+      "email": "nurgaleev1@list.ru"
+    }
+  ],
+  "require": {
+    "doctrine/orm": "^3",
+    "doctrine/dbal": "^4",
+    "symfony/cache": "^7"
+  },
+  "autoload": {
+    "psr-4": {
+      "azurephp\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
